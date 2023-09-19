@@ -37,9 +37,9 @@ public class javacalc{
         else if (op.equals("%")){
             return (double)num1%num2;
         }
-        
-
-        return 5.0;
+        else{
+            return 0.1;
+        }
     }
 
 }
