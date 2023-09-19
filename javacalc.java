@@ -12,17 +12,18 @@ public class javacalc{
         //Asking and Gathering User Input
         System.out.print("Input your equation: ");
         
-        
         Double num1input = mathinput.nextDouble();
         String opinput = mathinput.next();
         Double num2input = mathinput.nextDouble();
         mathinput.close();
 
+        //Inputing Calculation
         double ans = mathcalculation(num1input, opinput, num2input);
 
         System.out.print(ans);
     }
 
+        //Doing Math
     public static double mathcalculation(double num1, String op, double num2){
         if (op.equals("+")){
             return (double)num1 + num2;
