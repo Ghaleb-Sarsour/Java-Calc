@@ -16,7 +16,7 @@ public class javacalc{
         Double num1input = mathinput.nextDouble();
         String opinput = mathinput.next();
         Double num2input = mathinput.nextDouble();
-        scanner.close();
+        mathinput.close();
 
         double ans = mathcalculation(num1input, opinput, num2input);
 
